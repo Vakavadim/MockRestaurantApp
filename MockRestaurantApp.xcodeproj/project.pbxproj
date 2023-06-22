@@ -13,9 +13,7 @@
 		E0A0F5B12A44D2DA00E9CBE1 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = E0A0F5AF2A44D2DA00E9CBE1 /* Main.storyboard */; };
 		E0A0F5B32A44D2DB00E9CBE1 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = E0A0F5B22A44D2DB00E9CBE1 /* Assets.xcassets */; };
 		E0A0F5B62A44D2DB00E9CBE1 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = E0A0F5B42A44D2DB00E9CBE1 /* LaunchScreen.storyboard */; };
-		E0A0F5C12A44D2DB00E9CBE1 /* MockRestaurantAppTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = E0A0F5C02A44D2DB00E9CBE1 /* MockRestaurantAppTests.swift */; };
-		E0A0F5CB2A44D2DB00E9CBE1 /* MockRestaurantAppUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = E0A0F5CA2A44D2DB00E9CBE1 /* MockRestaurantAppUITests.swift */; };
-		E0A0F5CD2A44D2DB00E9CBE1 /* MockRestaurantAppUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = E0A0F5CC2A44D2DB00E9CBE1 /* MockRestaurantAppUITestsLaunchTests.swift */; };
+		E0A0F5DA2A44D80E00E9CBE1 /* db.json in Resources */ = {isa = PBXBuildFile; fileRef = E0A0F5D92A44D80E00E9CBE1 /* db.json */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -45,10 +43,8 @@
 		E0A0F5B52A44D2DB00E9CBE1 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		E0A0F5B72A44D2DB00E9CBE1 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		E0A0F5BC2A44D2DB00E9CBE1 /* MockRestaurantAppTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = MockRestaurantAppTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
-		E0A0F5C02A44D2DB00E9CBE1 /* MockRestaurantAppTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MockRestaurantAppTests.swift; sourceTree = "<group>"; };
 		E0A0F5C62A44D2DB00E9CBE1 /* MockRestaurantAppUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = MockRestaurantAppUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
-		E0A0F5CA2A44D2DB00E9CBE1 /* MockRestaurantAppUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MockRestaurantAppUITests.swift; sourceTree = "<group>"; };
-		E0A0F5CC2A44D2DB00E9CBE1 /* MockRestaurantAppUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MockRestaurantAppUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		E0A0F5D92A44D80E00E9CBE1 /* db.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = db.json; sourceTree = SOURCE_ROOT; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -80,8 +76,6 @@
 			isa = PBXGroup;
 			children = (
 				E0A0F5A82A44D2DA00E9CBE1 /* MockRestaurantApp */,
-				E0A0F5BF2A44D2DB00E9CBE1 /* MockRestaurantAppTests */,
-				E0A0F5C92A44D2DB00E9CBE1 /* MockRestaurantAppUITests */,
 				E0A0F5A72A44D2DA00E9CBE1 /* Products */,
 			);
 			sourceTree = "<group>";
@@ -105,26 +99,10 @@
 				E0A0F5AF2A44D2DA00E9CBE1 /* Main.storyboard */,
 				E0A0F5B22A44D2DB00E9CBE1 /* Assets.xcassets */,
 				E0A0F5B42A44D2DB00E9CBE1 /* LaunchScreen.storyboard */,
+				E0A0F5D92A44D80E00E9CBE1 /* db.json */,
 				E0A0F5B72A44D2DB00E9CBE1 /* Info.plist */,
 			);
 			path = MockRestaurantApp;
-			sourceTree = "<group>";
-		};
-		E0A0F5BF2A44D2DB00E9CBE1 /* MockRestaurantAppTests */ = {
-			isa = PBXGroup;
-			children = (
-				E0A0F5C02A44D2DB00E9CBE1 /* MockRestaurantAppTests.swift */,
-			);
-			path = MockRestaurantAppTests;
-			sourceTree = "<group>";
-		};
-		E0A0F5C92A44D2DB00E9CBE1 /* MockRestaurantAppUITests */ = {
-			isa = PBXGroup;
-			children = (
-				E0A0F5CA2A44D2DB00E9CBE1 /* MockRestaurantAppUITests.swift */,
-				E0A0F5CC2A44D2DB00E9CBE1 /* MockRestaurantAppUITestsLaunchTests.swift */,
-			);
-			path = MockRestaurantAppUITests;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -232,6 +210,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				E0A0F5B62A44D2DB00E9CBE1 /* LaunchScreen.storyboard in Resources */,
+				E0A0F5DA2A44D80E00E9CBE1 /* db.json in Resources */,
 				E0A0F5B32A44D2DB00E9CBE1 /* Assets.xcassets in Resources */,
 				E0A0F5B12A44D2DA00E9CBE1 /* Main.storyboard in Resources */,
 			);
@@ -268,7 +247,6 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				E0A0F5C12A44D2DB00E9CBE1 /* MockRestaurantAppTests.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -276,8 +254,6 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				E0A0F5CB2A44D2DB00E9CBE1 /* MockRestaurantAppUITests.swift in Sources */,
-				E0A0F5CD2A44D2DB00E9CBE1 /* MockRestaurantAppUITestsLaunchTests.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -443,8 +419,8 @@
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
 				INFOPLIST_KEY_UIMainStoryboardFile = Main;
-				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
-				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations = UIInterfaceOrientationPortrait;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown";
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -452,9 +428,12 @@
 				MARKETING_VERSION = 1.0;
 				PRODUCT_BUNDLE_IDENTIFIER = "Vadim-Gamzaev.MockRestaurantApp";
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator";
+				SUPPORTS_MACCATALYST = NO;
+				SUPPORTS_MAC_DESIGNED_FOR_IPHONE_IPAD = NO;
 				SWIFT_EMIT_LOC_STRINGS = YES;
 				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
+				TARGETED_DEVICE_FAMILY = 1;
 			};
 			name = Debug;
 		};
@@ -471,8 +450,8 @@
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
 				INFOPLIST_KEY_UIMainStoryboardFile = Main;
-				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
-				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations = UIInterfaceOrientationPortrait;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown";
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -480,9 +459,12 @@
 				MARKETING_VERSION = 1.0;
 				PRODUCT_BUNDLE_IDENTIFIER = "Vadim-Gamzaev.MockRestaurantApp";
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator";
+				SUPPORTS_MACCATALYST = NO;
+				SUPPORTS_MAC_DESIGNED_FOR_IPHONE_IPAD = NO;
 				SWIFT_EMIT_LOC_STRINGS = YES;
 				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
+				TARGETED_DEVICE_FAMILY = 1;
 			};
 			name = Release;
 		};
